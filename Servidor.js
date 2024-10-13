@@ -13,7 +13,8 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://frontend-20.onrender.com/",
+    origin:
+      "https://670c46dea6fd21f6fc295208--phenomenal-heliotrope-29f54e.netlify.app/",
   }),
 );
 
