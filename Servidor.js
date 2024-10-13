@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://spontaneous-praline-da336d.netlify.app/",
+    origin: "https://silver-gelato-190f56.netlify.app/",
   }),
 );
 
