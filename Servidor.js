@@ -11,12 +11,7 @@ const directorR = require("./routes/DirectorR");
 const app = express();
 app.use(express.json());
 
-app.use(
-  cors({
-    origin:
-      "https://670c46dea6fd21f6fc295208--phenomenal-heliotrope-29f54e.netlify.app/",
-  }),
-);
+app.use(cors({ origin: "*" }));
 
 async function main() {
   await app.listen(process.env.PORT);
