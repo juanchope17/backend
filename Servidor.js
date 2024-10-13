@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://silver-gelato-190f56.netlify.app/",
+    origin: "https://frontend-20.onrender.com/",
   }),
 );
 
