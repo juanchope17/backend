@@ -13,12 +13,12 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:4321",
+    origin: "https://spontaneous-praline-da336d.netlify.app/",
   }),
 );
 
 async function main() {
-  await app.listen(5001);
+  await app.listen(process.env.PORT);
   console.log(`Server on port 5001, Congratulations`);
 }
 
